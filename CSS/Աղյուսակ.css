@@ -1,0 +1,33 @@
+th, td {
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 10px;
+}
+
+table {
+	width: 500px;
+	border-collapse: collapse;
+	background-color: #fff;
+	color: blue;
+}
+
+th {
+	background-color: aqua;
+	
+}
+
+#left {
+	text-align: left;
+}
+
+h2 {
+	color: red;
+}
+
+body {
+	background-color: aliceblue;
+}
+
+tr:nth-child(even) td {
+	background-color:  yellow;
+}

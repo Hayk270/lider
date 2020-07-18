@@ -1,0 +1,32 @@
+body {
+	background-image: url(../Images/pattern.png);
+	background-repeat: repeat;
+	margin: 0;
+}
+
+#wrapper {
+	background: url(../Images/tel.png) no-repeat fixed left center/40px ;
+}
+
+
+#main {
+	background-image: url(../Images/bg_small.jpg);
+	width: 600px;
+	height: 986px;
+	margin: 40px auto;
+	background-repeat: repeat-x;
+	background-color: #841010;
+}
+
+#main h1 {
+	text-align: center;
+	font: 42px, Tahoma;
+	padding-top: 161px;	
+	background-image: url(../Images/logo.png); 
+	background-repeat: no-repeat;
+	background-position: 105px bottom;
+	outline: 1px solid #800;
+}
+
+
+

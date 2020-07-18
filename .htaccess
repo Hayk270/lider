@@ -1,0 +1,16 @@
+﻿AddDefaultCharset utf-8
+RewriteEngine On
+Options +FollowSymlinks
+RewriteCond   %{http://s292909.smrtp.ru/} !-d
+RewriteCond   %{http://s292909.smrtp.ru/} !-f
+
+RewriteRule ^feedback/$ feedback.php [QSA,L]
+RewriteRule ^reg/$ registration.php [QSA,L]
+RewriteRule ^profile/$ profile.php [QSA,L]
+RewriteRule ^products/([0-9]+)-([a-z0-9\-«»<<>>]+)/?$ view_content.php?id=$1 [L]
+RewriteRule ^index.php$ / [QSA,R]
+RewriteRule ^index.html$ / [QSA,R]
+
+AddType application/x-http-php .html
+
+ErrorDocument 404 /404.php
