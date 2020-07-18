@@ -1,8 +1,6 @@
 ﻿AddDefaultCharset utf-8
 RewriteEngine On
 Options +FollowSymlinks
-RewriteCond   %{http://s292909.smrtp.ru/} !-d
-RewriteCond   %{http://s292909.smrtp.ru/} !-f
 
 RewriteRule ^feedback/$ feedback.php [QSA,L]
 RewriteRule ^reg/$ registration.php [QSA,L]
